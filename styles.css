@@ -122,7 +122,7 @@ html, body {
   border-radius: 25px;
   padding: 8%;
   margin: 5%;
-  background: linear-gradient(135deg, #d46e6e, #c45f5f);
+  background: linear-gradient(135deg, #e67777, #e97171);
   transition: 0.2s ease box-shadow, 0.2s ease transform;
 }
 .timetable .accent-brown-gradient:hover {
