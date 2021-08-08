@@ -38,7 +38,7 @@ html, body {
   border-radius: 25px;
   padding: 8%;
   margin: 5%;
-  background: linear-gradient(135deg, #f1af35 , #fdea3f );
+  background: linear-gradient(135deg, #f0b241 , #faae4b );
   transition: 0.2s ease box-shadow, 0.2s ease transform;
 }
 .timetable .accent-orange-gradient:hover {
@@ -122,11 +122,11 @@ html, body {
   border-radius: 25px;
   padding: 8%;
   margin: 5%;
-  background: linear-gradient(135deg, #f27e7e, #f18f8f);
+  background: linear-gradient(135deg, #d46e6e, #c45f5f);
   transition: 0.2s ease box-shadow, 0.2s ease transform;
 }
 .timetable .accent-brown-gradient:hover {
-  box-shadow: 0 20px 30px 0 rgba(152, 118, 84, 0.3);
+  box-shadow: 0 20px 30px 0 rgba(114, 54, 54, 0.3);
   transform: scale(1.05);
 }
 .timetable .weekend {
