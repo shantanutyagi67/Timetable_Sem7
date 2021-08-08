@@ -15,7 +15,8 @@ html, body {
   grid-template-rows: 50px;
   width: 100hw;
   height: 60vw;
-  font-size:1vw  
+  font-size:1vw ; 
+  text-align: center;
 }
 .timetable .accent-pink-gradient {
   display: block;
@@ -29,7 +30,11 @@ html, body {
 }
 .timetable .accent-pink-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(238, 142, 188, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://i.pinimg.com/236x/15/b7/46/15b74624a4c9bf7d0ae9c9995c7edc76--what-meme-funny-quotes-about.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-orange-gradient {
   display: block;
@@ -43,7 +48,11 @@ html, body {
 }
 .timetable .accent-orange-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(255, 185, 56, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://external-preview.redd.it/6L9aJoYPI6zE4YJIYEyUNrRoYuHCsxvQmW-GREOiRYU.png?auto=webp&s=46db6f3ede093c84c78e433730971e4d2357c9aa");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-green-gradient {
   display: block;
@@ -57,7 +66,11 @@ html, body {
 }
 .timetable .accent-green-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(188, 238, 142, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://i.imgflip.com/5c9xw3.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-cyan-gradient {
   display: block;
@@ -71,7 +84,11 @@ html, body {
 }
 .timetable .accent-cyan-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(142, 238, 192, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://pbs.twimg.com/media/CVRQCHIU4AMBN7G.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-blue-gradient {
   display: block;
@@ -85,7 +102,11 @@ html, body {
 }
 .timetable .accent-blue-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(142, 188, 238, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://starecat.com/content/wp-content/uploads/machine-learning-noah-what-the-hell-is-this-child-of-computer-science-statistics-and-mathematics.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-purple-gradient {
   display: block;
@@ -99,7 +120,11 @@ html, body {
 }
 .timetable .accent-purple-gradient:hover {
   box-shadow: 0 20px 30px 0 rgba(192, 142, 238, 0.3);
-  transform: scale(1.05);
+  transform: scale(1.4);
+  background:url("https://images3.memedroid.com/images/UPLOADED342/60859bec8dcad.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-brown-gradient {
   display: block;
@@ -111,9 +136,13 @@ html, body {
   background: linear-gradient(135deg, #f2b87e, #cc9864);
   transition: 0.2s ease box-shadow, 0.2s ease transform;
 }
-.timetable .accent-red-gradient:hover {
-  box-shadow: 0 20px 30px 0 rgba(152, 118, 84, 0.3);
-  transform: scale(1.05);
+.timetable .accent-brown-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(133, 98, 64, 0.3);
+  transform: scale(1.4);
+  background:url("https://www.memesmonkey.com/images/memesmonkey/4e/4ec577e1fb8990056fe83150a48b309a.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .accent-red-gradient {
   display: block;
@@ -125,9 +154,13 @@ html, body {
   background: linear-gradient(135deg, #e67777, #e97171);
   transition: 0.2s ease box-shadow, 0.2s ease transform;
 }
-.timetable .accent-brown-gradient:hover {
-  box-shadow: 0 20px 30px 0 rgba(114, 54, 54, 0.3);
-  transform: scale(1.05);
+.timetable .accent-red-gradient:hover {
+  box-shadow: 0 20px 30px 0 rgba(119, 43, 43, 0.3);
+  transform: scale(1.4);
+  background:url("https://memegenerator.net/img/instances/68720893/at-least-my-mind-is-free.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .timetable .weekend {
   background: #f5f5f5;
@@ -183,4 +216,9 @@ html, body {
   font-size: 10pxvw;
   align-items: center;
   justify-content: center;
+}
+
+.modal:hover {
+  position: absolute;
+  inset: 40px;
 }
